@@ -1,0 +1,118 @@
+* {
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}	
+body{
+
+	background-image: url('https://st.depositphotos.com/3008028/4643/i/600/depositphotos_46439793-stock-photo-bright-green-background-with-old.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+header{
+text-align: center;
+background-color: green; 
+height: 60px;
+color:white;
+font-family:  sans-serif;
+font-weight: 900;
+margin-bottom:70px;
+}
+
+    footer {
+        background-color: lightgreen;
+        bottom: 0;
+        width: 100%;
+    }
+
+.content{
+	background-color: lightgreen;
+	width: 80%;
+	margin: 0px auto;
+	padding: 10px;
+}
+.content h1{
+text-align: center;
+color: white;
+
+}
+.row{
+
+	display: flex;
+}
+.box p{
+
+
+	font-size: 25px;
+}
+.box{
+background-color: green;
+margin: 10px;
+padding: 15px;
+flex-grow: 1;
+border-radius: 10px;
+}
+ img {
+max-height: 100%;
+max-width: 350px;
+border: 10px outset darkgreen;
+border-radius: 20px;
+box-shadow: 10px 10px black;
+float: left;
+margin-right: 20px; }
+
+  
+
+
+
+ul {
+        list-style: none;
+        padding: 0;
+}
+.menu li {
+    display: inline-block;
+    padding: 25px;
+    color: white;
+
+    
+}
+
+.menu li:hover {
+    background-color: white;
+    color: black;
+}
+
+.menu {
+
+    box-shadow: 4px 5px 15px rgba(0, 0, 0, 0.5);
+    background-color: green;
+
+    margin-top:20px;
+}
+iframe{
+
+
+max-width: 100%;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
